@@ -1,0 +1,3 @@
+[submodule "packages/submodule-microservice"]
+	path = packages/submodule-microservice
+	url = https://github.com/awahab1116/submodule-microservice

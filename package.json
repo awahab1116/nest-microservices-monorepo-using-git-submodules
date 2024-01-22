@@ -1,0 +1,20 @@
+{
+  "name": "microservice_monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "lerna run --parallel start",
+    "dev-common": "lerna run dev-common"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^8.0.2"
+  }
+}
